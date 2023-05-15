@@ -13,7 +13,6 @@ export class MainPageComponent {
   
 
   public obtenNuevoPersonaje(personaje : Personaje) : void{
-    
     // console.log(personaje);
     // agrega al arreglo personajes un nuevo personaje obtenido
     this.personajes.push(personaje);
